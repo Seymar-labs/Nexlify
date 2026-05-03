@@ -44,6 +44,8 @@ const Sidebar = () => {
       icon: 'swap_horiz',
       href: '/converters',
       tools: [
+        { label: 'PNG to JPG', href: '/converters/png-to-jpg' },
+        { label: 'JPG to PNG', href: '/converters/jpg-to-png' },
         { label: 'Image to PDF', href: '/converters/image-to-pdf' },
       ],
     },
